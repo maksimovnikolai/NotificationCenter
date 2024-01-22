@@ -9,8 +9,10 @@ import UIKit
 
 final class TabBarController: UITabBarController {
     
+    private let dataModel = DataModel()
+    
     private lazy var notifierVC: NotifierViewController = {
-        let notifierVC = NotifierViewController()
+        let notifierVC = NotifierViewController(dataModel: dataModel)
         notifierVC.tabBarItem.title = "NotifierVC"
         notifierVC.tabBarItem.image = UIImage(systemName: "1.circle")
         return notifierVC
