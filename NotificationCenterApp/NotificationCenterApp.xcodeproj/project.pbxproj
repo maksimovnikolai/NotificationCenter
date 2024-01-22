@@ -11,6 +11,10 @@
 		ADC8D1322B5E610A00112718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D1312B5E610A00112718 /* SceneDelegate.swift */; };
 		ADC8D1392B5E610C00112718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D1382B5E610C00112718 /* Assets.xcassets */; };
 		ADC8D13C2B5E610C00112718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D13A2B5E610C00112718 /* LaunchScreen.storyboard */; };
+		ADC8D1492B5E629B00112718 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D1482B5E629B00112718 /* TabBarController.swift */; };
+		ADC8D14B2B5E63CB00112718 /* NotifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D14A2B5E63CB00112718 /* NotifierViewController.swift */; };
+		ADC8D14D2B5E63F600112718 /* FirstObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D14C2B5E63F600112718 /* FirstObserverViewController.swift */; };
+		ADC8D14F2B5E641B00112718 /* SecondObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D14E2B5E641B00112718 /* SecondObserverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		ADC8D1382B5E610C00112718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC8D13B2B5E610C00112718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC8D13D2B5E610C00112718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8D1482B5E629B00112718 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		ADC8D14A2B5E63CB00112718 /* NotifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierViewController.swift; sourceTree = "<group>"; };
+		ADC8D14C2B5E63F600112718 /* FirstObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstObserverViewController.swift; sourceTree = "<group>"; };
+		ADC8D14E2B5E641B00112718 /* SecondObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondObserverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 		ADC8D1452B5E618500112718 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADC8D1482B5E629B00112718 /* TabBarController.swift */,
+				ADC8D14A2B5E63CB00112718 /* NotifierViewController.swift */,
+				ADC8D14C2B5E63F600112718 /* FirstObserverViewController.swift */,
+				ADC8D14E2B5E641B00112718 /* SecondObserverViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,7 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC8D14D2B5E63F600112718 /* FirstObserverViewController.swift in Sources */,
+				ADC8D1492B5E629B00112718 /* TabBarController.swift in Sources */,
 				ADC8D1302B5E610A00112718 /* AppDelegate.swift in Sources */,
+				ADC8D14B2B5E63CB00112718 /* NotifierViewController.swift in Sources */,
+				ADC8D14F2B5E641B00112718 /* SecondObserverViewController.swift in Sources */,
 				ADC8D1322B5E610A00112718 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
