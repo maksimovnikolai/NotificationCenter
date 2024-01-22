@@ -9,6 +9,12 @@ import UIKit
 
 final class SecondObserverViewController: UIViewController {
     
+    private let secondObserverView = SecondObserverView()
+    
+    override func loadView() {
+        view = secondObserverView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
