@@ -16,6 +16,7 @@
 		ADC8D14D2B5E63F600112718 /* FirstObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D14C2B5E63F600112718 /* FirstObserverViewController.swift */; };
 		ADC8D14F2B5E641B00112718 /* SecondObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D14E2B5E641B00112718 /* SecondObserverViewController.swift */; };
 		ADC8D1512B5E6AAF00112718 /* NotifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D1502B5E6AAF00112718 /* NotifierView.swift */; };
+		ADC8D1532B5E6EAA00112718 /* FirstObserverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D1522B5E6EAA00112718 /* FirstObserverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ADC8D14C2B5E63F600112718 /* FirstObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstObserverViewController.swift; sourceTree = "<group>"; };
 		ADC8D14E2B5E641B00112718 /* SecondObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondObserverViewController.swift; sourceTree = "<group>"; };
 		ADC8D1502B5E6AAF00112718 /* NotifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierView.swift; sourceTree = "<group>"; };
+		ADC8D1522B5E6EAA00112718 /* FirstObserverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstObserverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D1502B5E6AAF00112718 /* NotifierView.swift */,
+				ADC8D1522B5E6EAA00112718 /* FirstObserverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				ADC8D1302B5E610A00112718 /* AppDelegate.swift in Sources */,
 				ADC8D14B2B5E63CB00112718 /* NotifierViewController.swift in Sources */,
 				ADC8D14F2B5E641B00112718 /* SecondObserverViewController.swift in Sources */,
+				ADC8D1532B5E6EAA00112718 /* FirstObserverView.swift in Sources */,
 				ADC8D1322B5E610A00112718 /* SceneDelegate.swift in Sources */,
 				ADC8D1512B5E6AAF00112718 /* NotifierView.swift in Sources */,
 			);
